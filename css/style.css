@@ -1,0 +1,293 @@
+/* General Styles */
+body {
+    margin: 0;
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #800020;
+    padding: 10px;
+    border-style: double;
+    border-width: 8px;
+    border-color: #e8f9ff;
+}
+
+nav p, nav a {
+    color: #f6f5f5;
+    font-family: "Cormorant", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 23px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #16C47F;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #800020;
+    padding: 10px;
+    border-style: double;
+    border-width: 8px;
+    border-color: #e8f9ff;
+    color: #f6f5f5;
+    font-size: 18px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #16C47F;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* Splash Section */
+.splash {
+    background-color: #800020;
+    padding: 10px;
+    border-style: double;
+    border-width: 8px;
+    border-color: #e8f9ff;
+    color: #f6f5f5;
+}
+
+.splash h1 {
+    text-align: center;
+    font-family: "Acme", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 35px;
+    margin: 16px;
+}
+
+.splash img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    border: 1em solid transparent;
+    background: linear-gradient(#EAFAEA, #EAFAEA)
+                padding-box,
+                repeating-linear-gradient(-45deg,
+                #118b50 0, #118b50 12.5%,
+                transparent 0, transparent 25%,
+                #05472a 0, #05472a 37.5%,
+                transparent 0, transparent 50%)
+                0 / 5em 5em;
+}
+
+.splash p {
+    text-align: center;
+    color: #f6f5f5;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/* Horizontal Rules */
+hr {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-top: 10px dashed;
+    border-top-color: #118B50;
+}
+
+/* Sections */
+section {
+    background-color: #800020;
+    padding: 10px;
+    border-style: double;
+    border-width: 8px;
+    border-color: #e8f9ff;
+}
+
+/* Section Headings */
+section h2 {
+    margin: 16px;
+    font-family: "Chivo", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 28px;
+    color: #f6f5f5;
+    text-align: center;
+}
+
+/* Paragraph Styles */
+section p {
+    margin: 16px;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: #f6f5f5;
+}
+
+/* link styles */
+section a {
+    text-decoration: none;
+    color: #16C47F;
+}
+section a:hover {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    margin: 10px;
+    padding-left: 0px;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: #f6f5f5;
+    list-style-type: none;
+}
+
+dl {
+    display: grid;
+    margin: 10px;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: #f6f5f5;
+}
+
+dl dt{
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: #f6f5f5;
+}
+
+dl dd{
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    color: #f6f5f5;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding: 18px;
+}
+
+.card {
+    display: grid;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #123524;
+    box-shadow: 8px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 25px;
+}
+
+.card:hover {
+    box-shadow: 13px 13px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 465px;
+    height: 440px;
+    margin: 0px auto 0px auto;
+    border-radius: 25px;
+}
+
+.card h3 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-family: "Chivo", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    color: #f6f5f5;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    background-color: #800020;
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    color: #f6f5f5;
+    padding: 18px;
+}
+
+form {
+    border-style: double;
+    border-width: 8px;
+    border-color: #e8f9ff;
+}
+
+form input, form textarea {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #FCE7C8;
+    border: 2px solid #05472a;
+    border-radius: 4px;
+}
+
+form input:focus, form textarea:focus {
+    border: 3px solid black;
+    background-color: #e8f9ff;
+}
+
+form button {
+    background-color: #f6f5f5;
+    color: black;
+    font-size: 15px;
+    padding: 14px 40px;
+    border-radius: 8px;
+    border: 3px solid #123524;
+    width: 400px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #123524;
+    color: #f6f5f5;
+}
+
+/* Thank You Page Styles */
+.customize {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 225px;
+    justify-content: center;
+    background-color: #800020;
+}
+
+.customize h1 {
+    color: #f6f5f5;
+}
+
+.customize footer {
+    padding-top: 20px;
+}
